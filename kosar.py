@@ -1,16 +1,5 @@
 class Kosar:
-    """
-    Egyetlen vásárlás adatait kezelő osztály.
 
-    Az osztály attribútumai:
-        - a kosárban lévő árucikkek (név-mennyiség párok)
-        - a vásárlás összege
-    """
-
-    def __init__(self, termekek: dict[str, int]) -> None:
-        """
-        A kosár létrehozásakor beállítja az osztály attribútumait.
-        """
         pass
 
     def osszeg_lekerdezese(self) -> int:
